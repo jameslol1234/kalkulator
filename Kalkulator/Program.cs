@@ -12,21 +12,15 @@ namespace Kalkulator
         {
             while(true)
             {
-                int aa = 2;
-                if (aa == 4)
-                    break;
                 Console.WriteLine("1. Dodawanie");
-                Console.WriteLine("2. XAXAXA");
-                Console.WriteLine("3. Mnozenie");
-<<<<<<< HEAD
-                Console.WriteLine("4. Wyjscie");
-=======
+                Console.WriteLine("2. Mnozenie");
+                Console.WriteLine("3. Wyjscie");
                 Console.WriteLine("4. Dzielenie");
->>>>>>> 833f5f0... Add div to menu
+				Console.WriteLine("Oj Adamku, ale namieszales");
                 int menuOption = Convert.ToInt32(Console.ReadLine());
                 if (menuOption == 4)
                     break;
-
+				// wersja poprawiona przez użytkownika Junih (B) - polecam się
             }
         }
     }
